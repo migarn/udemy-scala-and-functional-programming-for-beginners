@@ -25,11 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/WhatsAFunction.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="43" column="48" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+            <state relative-caret-position="429">
+              <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/AnonymousFunctions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -37,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercises/MyList.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="361">
+              <caret line="69" column="61" lean-forward="true" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -80,8 +89,9 @@
         <option value="$PROJECT_DIR$/src/lectures/part2oop/package.scala" />
         <option value="$PROJECT_DIR$/src/playground/ScalaPlayground.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part2oop/PackagingAndImports.scala" />
-        <option value="$PROJECT_DIR$/src/exercises/MyList.scala" />
         <option value="$PROJECT_DIR$/src/lectures/part3fp/WhatsAFunction.scala" />
+        <option value="$PROJECT_DIR$/src/exercises/MyList.scala" />
+        <option value="$PROJECT_DIR$/src/lectures/part3fp/AnonymousFunctions.scala" />
       </list>
     </option>
   </component>
@@ -95,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,6 +140,13 @@
               <item name="rock-the-jvm-scala-beginners" type="b2602c69:ProjectViewProjectNode" />
               <item name="rock-the-jvm-scala-beginners" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lectures" type="462c0819:PsiDirectoryNode" />
+              <item name="part3fp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rock-the-jvm-scala-beginners" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rock-the-jvm-scala-beginners" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="playground" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -138,10 +154,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600883087090" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600965994878" />
     <property name="last_opened_file_path" value="C:/java fx/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -160,13 +177,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WhatsAFunction">
-    <configuration name="AnonymousClasses" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AnonymousClasses" />
+  <component name="RunManager" selected="Application.AnonymousFunctions">
+    <configuration name="AnonymousFunctions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part3fp.AnonymousFunctions" />
       <module name="rock-the-jvm-scala-beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="PATTERN" value="lectures.part3fp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonymousFunctions" />
         <item itemvalue="Application.WhatsAFunction" />
         <item itemvalue="Application.Exceptions" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.CaseClasses" />
-        <item itemvalue="Application.AnonymousClasses" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +275,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.50153375" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49846625" visible="true" weight="0.19251925" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49846625" visible="true" weight="0.0880088" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -436,17 +453,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercises/MyList.scala">
+    <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/WhatsAFunction.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="429">
+          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/WhatsAFunction.scala">
+    <entry file="file://$PROJECT_DIR$/src/exercises/MyList.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="43" column="48" lean-forward="true" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+        <state relative-caret-position="361">
+          <caret line="69" column="61" lean-forward="true" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lectures/part3fp/AnonymousFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
         </state>
       </provider>
     </entry>
