@@ -42,5 +42,28 @@ object HOFsCurries extends App {
   println(standardFormat(Math.PI))
   println(preciseFormat(Math.PI))
 
+  def toCurry(f: (Int, Int) => Int): (Int => Int => Int) =
+    x => y => f(x, y)
 
+  def fromCurry(f: (Int => Int => Int)): (Int, Int) => Int =
+    (x, y) => f(x)(y)
+
+  def compose[A, B, C](f: A => B, g: C => A): C => B =
+    x => f(g(x))
+
+  def andThen[A, B, C](f: A => B, g: B => C): A => C =
+    x => g(f(x))
+
+  def supperAdder2: (Int => Int => Int) = toCurry(_ + _)
+  def add4 = supperAdder2(4)
+  println(add4(17))
+
+  val simpleAdder = fromCurry(supperAdder2)
+  println(simpleAdder(4,17))
+
+  val add2 = (x: Int) => x + 2
+  val times3 = (x: Int) => x * 3
+
+  println(compose(add2,times3)(4))
+  println(andThen(add2,times3)(4))
 }
